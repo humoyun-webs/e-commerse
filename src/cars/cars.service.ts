@@ -5,8 +5,8 @@ import { Car } from './interfaces/car.interface';
 export class CarsService {
   private readonly cars: Car[] = [];
 
-  create(car:Car){
-    this.cars.push(car)
+  create(car: Car) {
+    this.cars.push(car);
   }
 
   getAll(): Car[] {

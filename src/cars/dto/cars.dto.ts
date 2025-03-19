@@ -1,5 +1,5 @@
 export class CarsDto {
-    color: string;
-    year: number;
-    type: 'nissan' | 'audi'
+  color: string;
+  year: number;
+  type: 'nissan' | 'audi';
 }
